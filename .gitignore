@@ -16,4 +16,5 @@ kernel/kernel
 user/usys.S
 .gdbinit
 .cache/
-.vscode/
+.vscode/*
+!.vscode/*.json
