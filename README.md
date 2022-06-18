@@ -19,9 +19,12 @@ See [Orignal README](https://github.com/Aneureka/xv6-riscv/blob/riscv/README).
     find . -name "*.[c|h]" -exec clang-format -i {} \;
     ```
 5. Configure `launch.json` and `tasks.json` for debugging
+6. Change `CPUS` in `Makefile` to 1 for debugging
 
 ## Debug setup
-Prerequisites: install required toolchains referring to  [Orignal README](https://github.com/Aneureka/xv6-riscv/blob/riscv/README)
+Prerequisites:
+- install required toolchains referring to  [Orignal README](https://github.com/Aneureka/xv6-riscv/blob/riscv/README)
+- Change `CPUS` in `Makefile` to 1 for debugging
 
 ### Terminal
 1. Run `make qemu-gdb` and you will see information belowed and `.gdbinit` created
