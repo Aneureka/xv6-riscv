@@ -5,7 +5,7 @@ See [Orignal README](https://github.com/Aneureka/xv6-riscv/blob/riscv/README).
 
 ## Notes
 1. Use [compiledb](https://github.com/nickdiego/compiledb) or [bear](https://github.com/rizsotto/Bear/) to generate `compile_commands.json`
-2. Add `#pragma once` macro to all the header files
+2. Add `#pragma once` macro to all header files
     ```shell
     echo "#pragma once\n" > /tmp/head.txt
     for file in $(find . -name "*.h"); do
